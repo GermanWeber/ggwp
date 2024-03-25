@@ -1,0 +1,180 @@
+body{
+
+    background-color: black;
+}
+
+h1{
+
+    
+    text-align: center;
+    border-radius: .3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+}
+
+
+
+.ul-arriba{
+
+    display: flex;
+    flex-direction: row;  
+    
+    padding: 0px;
+    list-style: none;
+    margin-top: 0px;    
+    background-color: rgb(114, 15, 8);
+    text-transform: uppercase;
+    max-width: 100%;
+    border-radius: 0rem;
+  
+}
+
+.ul-izquierda{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 20px 10px 20px 10px;
+    list-style: none;
+    width: 200px;
+    height:500px;
+    background-color: rgb(114, 15, 8);
+    text-transform: uppercase;
+    max-width: 100%;
+    border-radius: 0rem;
+ 
+}
+
+.li-menu-arriba{
+    padding: 20px 100px 20px 100px;
+    border-color: black;
+    border-radius: 5px;
+    text-decoration: underline;
+    
+    
+    margin: 0px;
+
+}
+
+.li-menu-arriba:hover{
+
+    cursor: pointer;   
+    background-color: red;
+    color: black;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+    
+    
+
+}
+
+.li-menus{
+    padding: 20px 100px 20px 40px;
+    
+    margin: 0px;
+
+}
+
+.li-menus:hover{
+
+    cursor: pointer;
+    
+    background-color: red;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.logo{
+
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.letras-logo{
+
+    display: flex;
+    font-size: 300%;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-bottom: opx;
+    
+    
+    
+
+}
+
+
+.letras-blancas{
+
+    color: white;
+}
+
+.redondear-03rem{
+
+    border-radius: 3rem;
+}
+
+.distancia-arriba{
+
+    margin-top: 20px;
+}
+
+.distancia-abajo{
+
+    margin-bottom: 20px;
+}
+
+.boton-aceptar{
+
+    
+    background-color: rgb(3, 90, 21);
+    padding: 15px 20px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    
+
+}
+.boton-aceptar:hover{
+
+    cursor: pointer;
+    
+    background-color: rgb(7, 240, 38);
+    color: black;
+    transition: 0.3s ease-in;
+}
+.boton-cancelar{
+
+    
+    background-color: rgb(114, 15, 8);
+    padding: 15px 20px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+
+}
+.boton-cancelar:hover{
+
+    cursor: pointer;
+    
+    background-color: rgb(253, 2, 2);
+    color: black;
+    transition: 0.3s ease-in;
+
+}        
+
+.abajo-derecha{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+   
+}    
+
+
